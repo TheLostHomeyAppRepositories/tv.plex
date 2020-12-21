@@ -1,1 +1,3 @@
-Stream Smarter with Plex
+Plex brings together all the media that matters to you. Your personal collection will look beautiful alongside stellar streaming content. Enjoy Live TV & DVR, a growing catalog of great web shows, news, and podcasts. It's finally possible to enjoy all the media you love in a single app, on any device, no matter where you are.
+
+Plex for Homey integrates your favorite home entertainment with your smart home. View what's currently playing, start a Flow when new media has been added to your Plex library, or automatically re-scan your library from a Flow.
