@@ -1,0 +1,63 @@
+{
+  "triggers": [
+    {
+      "id": "recently_added",
+      "title": {
+        "en": "New media has been added"
+      },
+      "hint": {
+        "en": "When Plex has added new media to the library."
+      },
+      "tokens": [
+        {
+          "type": "string",
+          "name": "title",
+          "title": {
+            "en": "Title"
+          },
+          "example": {
+            "en": "Star Trek — The search for Spock"
+          }
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "id": "rescan",
+      "title": {
+        "en": "Scan Library Files"
+      },
+      "hint": {
+        "en": "Rescan the library for new files"
+      },
+      "args": [
+        {
+          "type": "autocomplete",
+          "name": "library",
+          "placeholder": {
+            "en": "Library"
+          }
+        }
+      ]
+    },
+    {
+      "id": "refresh",
+      "title": {
+        "en": "Refresh Library Metadata"
+      },
+      "hint": {
+        "en": "Refresh the library metadata"
+      },
+      "args": [
+        {
+          "type": "autocomplete",
+          "name": "library",
+          "placeholder": {
+            "en": "Library"
+          }
+        }
+      ]
+    }
+  ]
+}
