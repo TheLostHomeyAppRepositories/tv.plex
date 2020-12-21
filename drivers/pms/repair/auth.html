@@ -13,7 +13,7 @@
 
   Homey.on('auth_success', () => {
     Homey.hideLoadingOverlay();
-    Homey.nextView();
+    Homey.done();
   });
 
   Homey.on('auth_error', err => {
