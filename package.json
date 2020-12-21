@@ -4,6 +4,7 @@
   "main": "app.js",
   "scripts": {
     "lint": "eslint .",
+    "validate": "homey app validate --level publish",
     "publish": "homey app publish"
   },
   "devDependencies": {
