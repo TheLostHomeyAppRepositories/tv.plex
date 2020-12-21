@@ -1,0 +1,25 @@
+<script type="text/javascript">
+  Homey.showLoadingOverlay();
+  Homey.emit('auth')
+    .then(({ url }) => {
+      console.log({ url })
+      Homey.popup(url);
+    })
+    .catch(err => {
+      console.error(err);
+      Homey.hideLoadingOverlay();
+      Homey.error(err);
+      Homey.done();
+    });
+
+  Homey.on('auth_success', () => {
+    Homey.hideLoadingOverlay();
+    Homey.nextView();
+  });
+
+  Homey.on('auth_error', err => {
+    Homey.hideLoadingOverlay();
+    Homey.error(err);
+    Homey.done();
+  })
+</script>

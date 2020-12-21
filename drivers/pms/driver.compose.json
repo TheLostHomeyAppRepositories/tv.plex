@@ -1,0 +1,28 @@
+{
+  "id": "pms",
+  "name": {
+    "en": "Plex Media Server"
+  },
+  "class": "other",
+  "capabilities": [],
+  "images": {
+    "large": "/drivers/pms/assets/images/large.png",
+    "small": "/drivers/pms/assets/images/small.png"
+  },
+  "pair": [
+    {
+      "id": "auth"
+    },
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_devices"
+      }
+    },
+    {
+      "id": "add_devices",
+      "template": "add_devices"
+    }
+  ]
+}

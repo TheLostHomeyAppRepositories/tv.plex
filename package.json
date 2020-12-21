@@ -1,0 +1,14 @@
+{
+  "name": "tv.plex",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-athom": "^2.1.0",
+    "homey": "^2.9.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "xml2js": "^0.4.23"
+  }
+}
