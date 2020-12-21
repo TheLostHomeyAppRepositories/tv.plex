@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "homey app publish"
   },
   "devDependencies": {
     "eslint": "^7.16.0",
