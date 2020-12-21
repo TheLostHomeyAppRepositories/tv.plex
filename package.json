@@ -2,6 +2,9 @@
   "name": "tv.plex",
   "version": "1.0.0",
   "main": "app.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "devDependencies": {
     "eslint": "^7.16.0",
     "eslint-config-athom": "^2.1.0",
