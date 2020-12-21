@@ -5,6 +5,7 @@ const PlexDriver = require('../../lib/PlexDriver');
 module.exports = class PlexMediaServerDriver extends PlexDriver {
 
   async onInit() {
+    // Rescan
     this.homey.flow.getActionCard('rescan')
       .registerRunListener(async ({ device, library }) => {
         const { key } = library;
@@ -18,6 +19,7 @@ module.exports = class PlexMediaServerDriver extends PlexDriver {
         }));
       });
 
+    // Refresh
     this.homey.flow.getActionCard('refresh')
       .registerRunListener(async ({ device, library }) => {
         const { key } = library;
