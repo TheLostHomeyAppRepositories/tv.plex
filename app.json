@@ -51,6 +51,120 @@
             "filter": "driver_id=pms"
           }
         ]
+      },
+      {
+        "id": "player_start",
+        "title": {
+          "en": "A player started streaming"
+        },
+        "hint": {
+          "en": "This card is started when someone starts streaming media from your server."
+        },
+        "tokens": [
+          {
+            "type": "string",
+            "name": "playerTitle",
+            "title": {
+              "en": "Player Name"
+            },
+            "example": {
+              "en": "Emile's iPhone"
+            }
+          },
+          {
+            "type": "string",
+            "name": "mediaTitle",
+            "title": {
+              "en": "Media"
+            },
+            "example": {
+              "en": "Star Wars IV - A new hope"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pms"
+          }
+        ]
+      },
+      {
+        "id": "player_pause",
+        "title": {
+          "en": "A player paused streaming"
+        },
+        "hint": {
+          "en": "This card is started when someone pauses streaming media from your server."
+        },
+        "tokens": [
+          {
+            "type": "string",
+            "name": "playerTitle",
+            "title": {
+              "en": "Player Name"
+            },
+            "example": {
+              "en": "Emile's iPhone"
+            }
+          },
+          {
+            "type": "string",
+            "name": "mediaTitle",
+            "title": {
+              "en": "Media"
+            },
+            "example": {
+              "en": "Star Wars IV - A new hope"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pms"
+          }
+        ]
+      },
+      {
+        "id": "player_stop",
+        "title": {
+          "en": "A player stopped streaming"
+        },
+        "hint": {
+          "en": "This card is started when someone stopped streaming media from your server."
+        },
+        "tokens": [
+          {
+            "type": "string",
+            "name": "playerTitle",
+            "title": {
+              "en": "Player Name"
+            },
+            "example": {
+              "en": "Emile's iPhone"
+            }
+          },
+          {
+            "type": "string",
+            "name": "mediaTitle",
+            "title": {
+              "en": "Media"
+            },
+            "example": {
+              "en": "Star Wars IV - A new hope"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pms"
+          }
+        ]
       }
     ],
     "actions": [
