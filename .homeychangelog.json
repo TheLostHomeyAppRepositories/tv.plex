@@ -10,5 +10,8 @@
   },
   "1.0.3": {
     "en": "Improved Server Discovery"
+  },
+  "1.1.0": {
+    "en": "Now with Playing/Paused/Stopped Flow cards"
   }
 }
