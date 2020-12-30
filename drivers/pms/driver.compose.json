@@ -9,6 +9,10 @@
     "speaker_album",
     "speaker_artist"
   ],
+  "platforms": [
+    "local",
+    "cloud"
+  ],
   "images": {
     "large": "/drivers/pms/assets/images/large.png",
     "small": "/drivers/pms/assets/images/small.png"

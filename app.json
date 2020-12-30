@@ -10,6 +10,10 @@
   "description": {
     "en": "Stream Smarter with Plex"
   },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
   "category": [
     "video"
   ],
@@ -227,6 +231,10 @@
         "speaker_track",
         "speaker_album",
         "speaker_artist"
+      ],
+      "platforms": [
+        "local",
+        "cloud"
       ],
       "images": {
         "large": "/drivers/pms/assets/images/large.png",
