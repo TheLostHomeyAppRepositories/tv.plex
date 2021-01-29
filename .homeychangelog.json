@@ -13,5 +13,8 @@
   },
   "1.1.0": {
     "en": "Now with Playing/Paused/Stopped Flow cards"
+  },
+  "1.1.1": {
+    "en": "Fixed duplicate Flow events"
   }
 }
