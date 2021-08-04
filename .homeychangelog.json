@@ -16,5 +16,8 @@
   },
   "1.1.1": {
     "en": "Fixed duplicate Flow events"
+  },
+  "1.1.2": {
+    "en": "Added 'User' Flow tag."
   }
 }

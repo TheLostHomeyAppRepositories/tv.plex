@@ -49,6 +49,16 @@
           "example": {
             "en": "Star Wars IV - A new hope"
           }
+        },
+        {
+          "type": "string",
+          "name": "userTitle",
+          "title": {
+            "en": "User"
+          },
+          "example": {
+            "en": "john@doe.com"
+          }
         }
       ]
     },
@@ -79,6 +89,16 @@
           },
           "example": {
             "en": "Star Wars IV - A new hope"
+          }
+        },
+        {
+          "type": "string",
+          "name": "userTitle",
+          "title": {
+            "en": "User"
+          },
+          "example": {
+            "en": "john@doe.com"
           }
         }
       ]
@@ -111,6 +131,16 @@
           "example": {
             "en": "Star Wars IV - A new hope"
           }
+        },
+        {
+          "type": "string",
+          "name": "userTitle",
+          "title": {
+            "en": "User"
+          },
+          "example": {
+            "en": "john@doe.com"
+          }
         }
       ]
     }
@@ -120,6 +150,9 @@
       "id": "rescan",
       "title": {
         "en": "Scan Library Files"
+      },
+      "titleFormatted": {
+        "en": "Scan [[library]]"
       },
       "hint": {
         "en": "Rescan the library for new files"
@@ -138,6 +171,9 @@
       "id": "refresh",
       "title": {
         "en": "Refresh Library Metadata"
+      },
+      "titleFormatted": {
+        "en": "Refresh [[library]]"
       },
       "hint": {
         "en": "Refresh the library metadata"
