@@ -19,5 +19,8 @@
   },
   "1.1.2": {
     "en": "Added 'User' Flow tag."
+  },
+  "1.1.3": {
+    "en": "Fixed a crash."
   }
 }
