@@ -13,6 +13,9 @@
     "local",
     "cloud"
   ],
+  "connectivity": [
+    "cloud"
+  ],
   "images": {
     "large": "/drivers/pms/assets/images/large.png",
     "small": "/drivers/pms/assets/images/small.png"

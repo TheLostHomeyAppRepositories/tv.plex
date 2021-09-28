@@ -161,7 +161,7 @@
         {
           "type": "autocomplete",
           "name": "library",
-          "placeholder": {
+          "title": {
             "en": "Library"
           }
         }
@@ -182,7 +182,7 @@
         {
           "type": "autocomplete",
           "name": "library",
-          "placeholder": {
+          "title": {
             "en": "Library"
           }
         }

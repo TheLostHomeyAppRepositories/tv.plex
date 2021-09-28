@@ -27,6 +27,7 @@
     "name": "Emile Nijssen",
     "email": "emile@emilenijssen.nl"
   },
+  "support": "mailto:emile@emilenijssen.nl",
   "flow": {
     "triggers": [
       {
@@ -223,7 +224,7 @@
           {
             "type": "autocomplete",
             "name": "library",
-            "placeholder": {
+            "title": {
               "en": "Library"
             }
           }
@@ -249,7 +250,7 @@
           {
             "type": "autocomplete",
             "name": "library",
-            "placeholder": {
+            "title": {
               "en": "Library"
             }
           }
@@ -271,6 +272,9 @@
       ],
       "platforms": [
         "local",
+        "cloud"
+      ],
+      "connectivity": [
         "cloud"
       ],
       "images": {
