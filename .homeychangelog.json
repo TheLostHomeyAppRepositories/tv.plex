@@ -34,5 +34,8 @@
   },
   "1.1.8": {
     "en": "Updated donation options."
+  },
+  "1.1.9": {
+    "en": "Use Plex relay by default."
   }
 }
