@@ -37,5 +37,8 @@
   },
   "1.1.9": {
     "en": "Use Plex relay by default."
+  },
+  "1.2.0": {
+    "en": "Added reconnection logic. Use Plex relay URL."
   }
 }
