@@ -40,5 +40,8 @@
   },
   "1.2.0": {
     "en": "Added reconnection logic. Use Plex relay URL."
+  },
+  "1.2.1": {
+    "en": "Fixed an issue during pairing."
   }
 }
