@@ -1,0 +1,20 @@
+{
+  "name": {
+    "en": "Recently Added"
+  },
+  "settings": [
+    {
+      "id": "server",
+      "type": "autocomplete",
+      "title": {
+        "en": "Server"
+      }
+    }
+  ],
+  "api": {
+    "getRecentlyAdded": {
+      "method": "GET",
+      "path": "/recently-added"
+    }
+  }
+}

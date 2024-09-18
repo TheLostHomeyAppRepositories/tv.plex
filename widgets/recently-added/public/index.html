@@ -1,0 +1,75 @@
+<html>
+
+<head>
+  <style type="text/css">
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background-color: #1D1D1D;
+    }
+
+    #items {
+      overflow-y: hidden;
+      overflow-x: scroll;
+      white-space: nowrap;
+      font-size: 0;
+      margin: -16px;
+    }
+
+    .item {
+      display: inline-block;
+      position: relative;
+      margin: 15px;
+      margin-right: 0;
+      height: 170px;
+      aspect-ratio: 0.6666666667;
+      border-radius: 5px;
+      overflow: hidden;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .item:last-child {
+      margin-right: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="items"></div>
+
+  <script type="text/javascript">
+    function onHomeyReady(Homey) {
+      const $items = document.getElementById('items');
+
+      const { server } = Homey.getSettings();
+      console.log('server', server)
+
+      Homey.ready({ height: 200 });
+      Homey.api('GET', `/recently-added?serverMachineIdentifier=${server.machineIdentifier}`)
+        .then(items => {
+          for (const item of Object.values(items)) {
+            // Check item uniqueness
+            if (document.querySelector(`.item[style*="${item.image}"]`)) {
+              continue;
+            }
+
+            // Add item
+            const $item = document.createElement('div');
+            $item.classList.add('item');
+            $item.style.backgroundImage = `url(${item.image})`;
+            $items.appendChild($item);
+          }
+        })
+        .catch(console.error);
+    }
+  </script>
+</body>
+
+</html>
