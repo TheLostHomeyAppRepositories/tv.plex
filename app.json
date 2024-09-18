@@ -25,9 +25,10 @@
   },
   "author": {
     "name": "Emile Nijssen",
-    "email": "emile@emilenijssen.nl"
+    "email": "emile@emile.nl"
   },
-  "support": "mailto:emile@emilenijssen.nl",
+  "support": "mailto:emile@emile.nl",
+  "source": "https://github.com/WeeJeWel/tv.plex",
   "contributing": {
     "donate": {
       "paypal": {
