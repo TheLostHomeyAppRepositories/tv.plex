@@ -49,7 +49,6 @@
       const $items = document.getElementById('items');
 
       const { server } = Homey.getSettings();
-      console.log('server', server)
 
       Homey.ready({ height: 200 });
       Homey.api('GET', `/recently-added?serverMachineIdentifier=${server.machineIdentifier}`)
