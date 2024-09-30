@@ -2,29 +2,22 @@
 
 <head>
   <style type="text/css">
-    html,
     body {
-      padding: 0;
-      margin: 0;
-    }
-
-    body {
-      background-color: #1D1D1D;
+      overflow: hidden;
     }
 
     #items {
-      overflow-y: hidden;
-      overflow-x: scroll;
       white-space: nowrap;
       font-size: 0;
-      margin: -16px;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      padding: var(--homey-su-4);
     }
 
     .item {
       display: inline-block;
       position: relative;
-      margin: 15px;
-      margin-right: 0;
+      margin-right: var(--homey-su-4);
       height: 170px;
       aspect-ratio: 0.6666666667;
       border-radius: 5px;
@@ -36,12 +29,12 @@
     }
 
     .item:last-child {
-      margin-right: 15px;
+      margin-right: 0;
     }
   </style>
 </head>
 
-<body>
+<body class="homey-widget-full">
   <div id="items"></div>
 
   <script type="text/javascript">
