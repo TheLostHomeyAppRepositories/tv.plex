@@ -46,5 +46,8 @@
   },
   "1.3.0": {
     "en": "Added a 'Recently Added' widget for Homey Dashboards."
+  },
+  "1.3.1": {
+    "en": "Improved the widget's styling."
   }
 }
