@@ -93,6 +93,16 @@
         },
         {
           "type": "string",
+          "name": "playerId",
+          "title": {
+            "en": "Player ID"
+          },
+          "example": {
+            "en": "f658383a-63c2-4d9c-b031-1ae346e6fc26"
+          }
+        },
+        {
+          "type": "string",
           "name": "mediaTitle",
           "title": {
             "en": "Media"
@@ -130,6 +140,16 @@
           },
           "example": {
             "en": "Emile's iPhone"
+          }
+        },
+        {
+          "type": "string",
+          "name": "playerId",
+          "title": {
+            "en": "Player ID"
+          },
+          "example": {
+            "en": "f658383a-63c2-4d9c-b031-1ae346e6fc26"
           }
         },
         {
