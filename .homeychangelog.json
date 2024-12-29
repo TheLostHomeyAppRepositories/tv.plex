@@ -61,5 +61,8 @@
   },
   "1.4.0": {
     "en": "Improved server URL discovery."
+  },
+  "1.4.1": {
+    "en": "Improved server URL discovery."
   }
 }
