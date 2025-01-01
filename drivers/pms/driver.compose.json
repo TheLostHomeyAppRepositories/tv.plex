@@ -4,11 +4,7 @@
     "en": "Plex Media Server"
   },
   "class": "other",
-  "capabilities": [
-    "speaker_track",
-    "speaker_album",
-    "speaker_artist"
-  ],
+  "capabilities": [],
   "platforms": [
     "local",
     "cloud"
