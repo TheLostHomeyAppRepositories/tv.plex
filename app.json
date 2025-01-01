@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "tv.plex",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "compatibility": ">=12.1.0",
   "brandColor": "#E5A00D",
   "sdk": 3,
@@ -306,11 +306,7 @@
         "en": "Plex Media Server"
       },
       "class": "other",
-      "capabilities": [
-        "speaker_track",
-        "speaker_album",
-        "speaker_artist"
-      ],
+      "capabilities": [],
       "platforms": [
         "local",
         "cloud"
