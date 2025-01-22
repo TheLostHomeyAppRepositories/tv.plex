@@ -18,6 +18,13 @@
           "example": {
             "en": "Star Trek — The search for Spock"
           }
+        },
+        {
+          "type": "image",
+          "name": "image",
+          "title": {
+            "en": "Artwork"
+          }
         }
       ]
     },
