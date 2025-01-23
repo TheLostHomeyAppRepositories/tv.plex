@@ -70,5 +70,8 @@
   },
   "1.5.0": {
     "en": "Added an 'Artwork' image tag to the 'New media has been added' Flow when-card."
+  },
+  "1.5.1": {
+    "en": "Use poster as image on new media instead of background."
   }
 }
